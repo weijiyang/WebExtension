@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>hello world</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <h2>
+        ops 便捷打包插件
+    </h2>
+    <p><button id="tangshao_button">按钮</button></p> -->
+    <div id="popup-app" class="popup-content">
+        <h1 class="app-name">OPS 快捷部署</h1>
+        <h2 class="tip">
+            tips：自动同步打开配置页面进行操作 ， 切误中途关闭！
+        </h2>
+        <div id="popup-form">
+            <p class="project">
+                <div>项目: <input type="text" value="scm-purchaser-manager" class="projectName"></div>
+                <div>环境: 
+                        <input type="radio" name="otherproject" value="1" checked>test
+                        <input type="radio" name="otherproject" value="2" >stage
+                        <input type="radio" name="otherproject" value="3">online
+                </div>
+                <div>分支: <input type="text" value="guanzhong" class="branch"></div>
+                <div>备注: <input type="text" value="自动化测试" class="tips"></div>
+            </p>
+            <p class="project">
+                <div>项目: <input type="text" value="mall-fe" disabled class="projectName"></div>
+                <div>环境: 
+                    <input type="radio" name="mainproject" value="1" checked>test
+                    <input type="radio" name="mainproject" value="2" >stage
+                    <input type="radio" name="mainproject" value="3">online
+                </div>
+                <div>分支: <input type="text" value="develop" class="branch"></div>
+                <div>备注: <input type="text" value="mall-fe 自动化测试" class="tips"></div>
+            </p>
+            <p>
+                <!-- <button href="#" id="tangshao_add">ADD</button> -->
+                <button href="#" id="tangshao_button">ACTION!</button>
+            </p>
+        </div>
+      </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
